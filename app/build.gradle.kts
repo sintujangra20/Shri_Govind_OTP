@@ -263,7 +263,7 @@ androidComponents {
             it.outputType.name == "SINGLE"
         }?.versionName?.get() ?: android.defaultConfig.versionName
         variant.outputs.forEach { output ->
-            output.outputFileName.set("otp-overlay-$versionName.apk")
+            output.outputFileName.set("Shri_Govind_Auto_OTP_Copy-$versionName.apk")
         }
     }
 }
