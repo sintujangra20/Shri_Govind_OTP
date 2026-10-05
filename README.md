@@ -9,12 +9,8 @@
 > no network, no analytics, no third-party SDKs.
 
 <p align="center">
-  <img alt="OTP Overlay demo" src="https://github.com/MidTano/otp-overlay/releases/download/media/demo.webp" width="320">
+  <img alt="Shri Govind Auto OTP Copy demo" src="https://github.com/MidTano/otp-overlay/releases/download/media/demo.webp" width="320">
 </p>
-
-<p align="center">
-  <a href="https://github.com/MidTano/otp-overlay/actions/workflows/android.yml"><img alt="Android CI" src="https://img.shields.io/github/actions/workflow/status/MidTano/otp-overlay/android.yml?branch=main&label=Android%20CI&logo=githubactions&logoColor=white&style=for-the-badge"></a>
-  <a href="https://github.com/MidTano/otp-overlay/actions/workflows/codeql.yml"><img alt="CodeQL" src="https://img.shields.io/github/actions/workflow/status/MidTano/otp-overlay/codeql.yml?branch=main&label=CodeQL&logo=github&logoColor=white&style=for-the-badge"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-2ea44f?style=for-the-badge&logo=opensourceinitiative&logoColor=white"></a>
 </p>
 
@@ -37,7 +33,7 @@
   <a href="gradle/libs.versions.toml"><img alt="Mockito" src="https://img.shields.io/badge/Mockito-5.23.0-25A162?style=flat-square"></a>
 </p>
 
-<p align="center">
+<<p align="center">
   <strong>Built with the help of an awesome animated emoji pack —
   please give the original author some love.</strong>
 </p>
@@ -47,11 +43,6 @@
     <img alt="Install KawaiiEmoji on Telegram" src="https://img.shields.io/badge/💖%20Install%20KawaiiEmoji%20pack%20on%20Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0088CC">
   </a>
 </p>
-
-> **Status**: personal pet-project, published as-is. I update it
-> when I have the time and the mood.
-> If you need something urgently, fork it; the
-> MIT licence allows that.
 
 ## Why
 
@@ -89,38 +80,6 @@ flips the order:
 | Notification access | Read posted notifications to extract OTPs delivered via push. |
 | Accessibility (optional) | Auto-paste the code into the focused field. The user opts in. |
 
-## Built with
-
-Kotlin · AndroidX · Lottie · Coroutines · Detekt · JaCoCo ·
-Robolectric · Espresso · UiAutomator · AndroidX Benchmark.
-
-Pinned versions live in
-[`gradle/libs.versions.toml`](gradle/libs.versions.toml).
-
-## Install / build
-
-```bash
-./gradlew :app:assembleDebug
-```
-
-The signed-release pipeline, reproducible build setup, R8
-config, JaCoCo, microbenchmark suite and CI gates are documented
-in [`CONTRIBUTING.md`](CONTRIBUTING.md). The package map and the
-data flow diagram are in
-[`docs/architecture.md`](docs/architecture.md).
-
-## Contributing
-
-PRs are welcome, but no SLA on review time — see
-[`CONTRIBUTING.md`](CONTRIBUTING.md).
-
-## Security
-
-Bugs that leak OTP values, sender labels, or any other PII fall
-under the security policy. Report them through GitHub Security
-Advisories — see [`SECURITY.md`](SECURITY.md). Do **not** open a
-public issue.
-
 ## License
 
 MIT — see [LICENSE](LICENSE) and [NOTICE](NOTICE) (NOTICE is
@@ -128,20 +87,3 @@ kept for third-party attribution; the MIT licence does not
 require it).
 
 ## Credits
-
-Some pieces of this app stand on the work of others. Big thanks
-to:
-
-- **[KawaiiEmoji](https://t.me/addemoji/KawaiiEmoji)** —
-  every animated emoji in this app is a Lottie export of
-  stickers from this Telegram pack. The original author is
-  unknown to me; if that is you and you would prefer the
-  animations not to be used here, please open an issue and the
-  assets will be replaced. Install the original sticker pack on
-  Telegram with one tap using the button at the top of this
-  README.
-- **[otphelper](https://github.com/jd1378/otphelper)** by
-  [@jd1378](https://github.com/jd1378) — referenced while
-  building the OTP-detection pipeline. A couple of the cleanup /
-  ignore phrase lists in `data/prefs/PrefsFilter.kt` are
-  inspired by their constants.
