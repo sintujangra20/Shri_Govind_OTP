@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">OTP Overlay</string>
+    <string name="app_name">Shri Govind Auto OTP Copy</string>
     <string name="title_settings">Настройки</string>
     <string name="accessibility_label">OTP Overlay — автовставка кодов</string>
     <string name="accessibility_description">Вставляет одноразовые пароли (OTP) из SMS и push-уведомлений в активное поле ввода на экране. Служба читает только активный элемент ввода и никогда не читает остальное содержимое экрана. Данные не покидают устройство — у приложения нет доступа к сети.</string>
