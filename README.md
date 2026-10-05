@@ -1,7 +1,15 @@
 <!-- SPDX-License-Identifier: MIT -->
 
-# OTP Overlay
+# Shri Govind Auto OTP Copy
 
+> यह मेरा एक एंड्रॉइड एप्लिकेशन है, जिसे मैंने ओपन-सोर्स कोड की मदद से कस्टमाइज़ किया है। यह ऐप आपके फोन पर आने वाले SMS और पुश नोटिफिकेशन से वन-टाइम पासवर्ड (OTP) को तुरंत डिटेक्ट करके स्क्रीन पर एक छोटा ओवरले दिखाता है, जिससे आप एक टैप में कोड कॉपी कर सकते हैं।
+
+## मुख्य फीचर्स (Key Features)
+
+- **ऑन-डिवाइस प्रोसेसिंग:** ऐप पूरी तरह से आपके फोन पर काम करता है। इसमें कोई इंटरनेट परमिशन नहीं है, कोई एनालिटिक्स नहीं है, और आपका डेटा पूरी तरह सुरक्षित है।
+- **स्मार्ट ओवरले:** जब भी कोई OTP आएगा, स्क्रीन पर एक फ्लोटिंग कार्ड दिखेगा जो एक्टिव ऐप (जैसे बैंकिंग या शॉपिंग ऐप) के ऊपर रहेगा।
+- **आसान कॉपी-पेस्ट:** सिर्फ एक टैप करके कोड कॉपी करें और एक्सेसिबिलिटी सर्विस की मदद से सीधे इनपुट फील्ड में पेस्ट करें।
+- **प्राइवेसी फोकस्ड:** ऐप ऑटोमैटिकली आपके फोन नंबर और संवेदनशील जानकारी को छुपा देता है।
 > A small Android overlay that surfaces one-time codes from SMS
 > and push notifications on top of the foreground app, copies
 > them on tap, and (optionally) auto-pastes into the OTP field
@@ -80,10 +88,17 @@ flips the order:
 | Notification access | Read posted notifications to extract OTPs delivered via push. |
 | Accessibility (optional) | Auto-paste the code into the focused field. The user opts in. |
 
-## License
 
-MIT — see [LICENSE](LICENSE) and [NOTICE](NOTICE) (NOTICE is
-kept for third-party attribution; the MIT licence does not
-require it).
+## Credits & License
 
-## Credits
+This project is a fork of the original open-source application **[OTP Overlay](https://github.com/MidTano/otp-overlay)** developed by **[MidTano](https://github.com/MidTano)**. 
+
+- **Original Repository:**
+  .(https://github.com/MidTano/otp-overlay).
+- **License:** MIT License
+
+We have modified the application name and built it using automated GitHub Actions CI/CD workflows. All original code structure, privacy designs, and core functionalities belong to the original author.
+
+
+
+*कृतज्ञता नोट: इस ऐप के सभी कोर फंक्शन्स और बेहतरीन प्राइवेसी आर्किटेक्चर का पूरा क्रेडिट इसके मूल लेखक (MidTano) को जाता है। हमने केवल इसके नाम और बिल्ड एनवायरनमेंट में बदलाव किए हैं।*
