@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Shri Govind Auto OTP Copy</string>
+    <string name="app_name">Shri Govind Auto OTP</string>
     <!-- Translatable=false: URLs do not vary by locale. -->
     <string name="url_github_issues" translatable="false">https://github.com/MidTano/otp-overlay/issues</string>
     <string name="title_settings">Settings</string>
